@@ -1,0 +1,18 @@
+nav {
+    width: 800px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: rgb(24, 23, 23);
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-text {
+    color: red;
+}
+
+.menu-bar {
+    width: 75%;
+}
