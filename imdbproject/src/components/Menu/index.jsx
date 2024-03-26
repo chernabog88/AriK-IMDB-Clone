@@ -6,7 +6,11 @@ function Menu() {
     return (
         <>
             <nav>
-                <h1 className='menu-text'>Test Menu</h1> <input className='menu-bar' type="text" />
+                <h1 className='menu-text'>Movie Database</h1>
+                <input className='menu-bar' type="text" />
+                <Link to="/autor" className='nav-link'>
+                    Sobre el Autor
+                </Link>
             </nav>
             {/*             <nav style={{ margin: 10 }}>
                 <div>
